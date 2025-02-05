@@ -75,7 +75,7 @@ ssize_t proc_seconds_read(struct file *file, char __user *usr_buf, size_t count,
     elapsed_seconds = (jiffies - start_jiffies) / HZ;
 
     // Output time to buffer
-    rv = sprintf(buffer, "Elapsed seconds: %lu\n", elapsed_seconds);
+    rv = sprintf(buffer, "Seconds elapsed: %lu\n", elapsed_seconds);
 
     // Copy data to user space
     copy_to_user(usr_buf, buffer, rv);
