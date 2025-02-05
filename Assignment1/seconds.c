@@ -2,8 +2,8 @@
 SFWRENG 3SH3 Assignment 1
 
 Group 24:
-Mehak Shah, shahm77, 400478491
-Samridhi Anand, anands29, 400478945
+____________, ____________, ____________
+____________, ____________, ____________
 
 Assignment 1 Goal: 
 Design a kernel module that creates a /proc file named /proc/seconds that 
